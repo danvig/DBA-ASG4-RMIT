@@ -1,0 +1,163 @@
+body {
+    background-color:white;
+    padding-left:50px;
+    padding-top:20px;
+    padding-right:50px;
+    padding-bottom:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* WELCOME PAGE */
+.welcome {
+    text-align:center;
+    color:black;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:150px;
+}
+
+.welcome h2 {
+    color:black;
+    font-weight:bold;
+    padding-top:15px;
+}
+
+.welcome .warning-text {
+    color:red;
+    font-weight:bold;
+}
+
+.welcome .enter-button {
+    background-color:#6D2889;
+    border:1px solid #000;
+    font-size:20px;
+    color:white;
+    border-radius:20px;
+}
+
+.welcome .enter-button:hover {
+    background-color:#744685;
+    text-decoration:underline;
+}
+
+/* STYLING FOR FORM */
+form {
+    border:2px solid #E8E8E8;
+    width:65%;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    display: inline-block;
+}
+
+form label {
+    font-size:20px;
+    color: #737373;
+}
+
+form h1, h2 {
+    color: #737373;
+    font-weight:100;
+    font-size:30px;
+}
+
+form hr {
+    border:1px solid #E8E8E8;
+    width:30%;
+}
+
+.input {
+    border:2px solid #E8E8E8;
+    font-size:20px;
+    color:#737373;
+    width:40%;
+    width:50%;
+    border-radius:5px;
+}
+
+.sbm-button {
+    background-color:#E18988;
+    border:1px solid #E18988;
+    font-size:20px;
+    color:#FFF;
+    width:100px;
+    border-radius:10px;
+}
+
+.sbm-button:hover {
+    background-color:#dd4644;
+    border:1px solid #dd4644;
+}
+
+.error {
+    color:red;
+}
+
+/* HIDING INPUTS */
+.voted-before-input {
+    display:none;
+}
+
+.address-inputs {
+    display:none;
+}
+
+.fraud-alert {
+    text-align:center;
+}
+
+.fraud-alert h1 {
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    text-transform: uppercase;
+    padding-top:20px;
+    border:1px solid red;
+    padding-bottom:20px;
+    border-width:50px;
+    background-color:red;
+}
+
+.thank-you {
+    text-align:center;
+}
+
+.ballot {
+    border:2px solid #E8E8E8;
+    width:65%;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    display: inline-block;
+}
+
+.ballot label {
+    font-size:20px;
+    color: #737373;
+}
+
+.ballot h1 {
+    color: #737373;
+    font-weight:100;
+    font-size:30px;
+}
+
+.ballot h2 {
+    color:#737373;
+    font-weight:100;
+    font-size:22px;
+}
+
+.ballot hr {
+    border:1px solid #E8E8E8;
+    width:30%;
+}
+
+.ballot .preference-box {
+    text-align:center;
+    height:45px;
+    width:45px;
+    color:black;
+    font-size:25px;
+    border:1px solid #737373;
+}
