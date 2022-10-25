@@ -1,7 +1,7 @@
 <?php
     // establish a database connection to your Oracle database.
-    $username = //REDACTED;
-    $password = //REDACTED; //DO NOT enter your RMIT password
+    $username = 's3844180';
+    $password = 'Freeman1!'; //DO NOT enter your RMIT password
     $servername = 'talsprddb01.int.its.rmit.edu.au';
     $servicename = 'CSAMPR1.ITS.RMIT.EDU.AU';
     $connection = $servername."/".$servicename;

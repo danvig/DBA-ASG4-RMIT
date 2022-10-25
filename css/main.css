@@ -152,12 +152,3 @@ form hr {
     border:1px solid #E8E8E8;
     width:30%;
 }
-
-.ballot .preference-box {
-    text-align:center;
-    height:45px;
-    width:45px;
-    color:black;
-    font-size:25px;
-    border:1px solid #737373;
-}
