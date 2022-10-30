@@ -68,7 +68,7 @@
         for ($i = 0; $i < $numCandidates; $i++) {
             $j = $i + 1;
             echo "<div id='candidate_$j' name='candidate_$j'>";
-            echo "<input type='text' class='preference-box' id='preference_$j' name='preference_$j' maxlength = '1'>";
+            echo "<input type='text' class='preference-box' id='preference_$j' name='preference_$j'>";
             echo "<p style='display: inline-block; text-align: left; padding-left:5px;' id='candidate$j'>$candidate_array[$i]  <br> $party_array[$i]";
             echo '</div>';
         }
